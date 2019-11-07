@@ -11,6 +11,7 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
+    "types": ["node"],
     "typeRoots": [
       "node_modules/@types"
     ],
@@ -22,5 +23,8 @@
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
     "strictInjectionParameters": true
-  }
+  },
+  "target": "es6", // or a more recent ecmascript version
+  "experimentalDecorators": true,
+  "emitDecoratorMetadata": true
 }
